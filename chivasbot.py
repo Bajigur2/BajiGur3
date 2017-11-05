@@ -9,15 +9,15 @@ cl.login(qr=True)
 cl.loginResult()
 
 kk = LineAlpha.LINE()
-kk.login(qr=True)
+kk.login(token="EkGIlVSPEV2reF9yJPV5.YmK3RE2Gh7r1rsdbSBQibq.tKU1hvspJfPh6q1vCZfK8M8+U0/B8bWA3FsxqPS7pMM=")
 kk.loginResult()
 
 ki = LineAlpha.LINE()
-ki.login(qr=True)
+ki.login(token="EkRQbZZErjrx5uujDyza.84BapPm+V0nuPZ1PkEq6/G.V3aSBbMrbByVhVmOx9yrMp4S7FTJqw6cetH43/pOLEA=")
 ki.loginResult()
 
 kc = LineAlpha.LINE()
-kc.login(qr=True)
+kc.login(token="EkZvZ7Hlj7m84MOx8yI1.O00VsLTlmX6iq84iusWZ4q.ScFSA8A8Qsbfp5hguvZI5/MZ3JkFwkM9PIvGyqC7Pi4=")
 kc.loginResult()
 
 print "login success"
