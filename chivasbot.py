@@ -16,9 +16,7 @@ ki = LineAlpha.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
-kc = LineAlpha.LINE()
-kc.login(qr=True)
-kc.loginResult()
+cl = kc
 
 print "login success"
 reload(sys)
@@ -83,7 +81,7 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["YOUR_MID_HERE"]
+admin=["u3b257ce1497b8d24ec3708ba3ed79d46"]
 wait = {
     'contact':True,
     'autoJoin':True,
