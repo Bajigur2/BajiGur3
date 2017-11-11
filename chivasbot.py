@@ -12,9 +12,7 @@ kk = LineAlpha.LINE()
 kk.login(qr=True)
 kk.loginResult()
 
-ki = LineAlpha.LINE()
-ki.login(qr=True)
-ki.loginResult()
+kk = ki
 
 cl = kc
 
