@@ -12,9 +12,13 @@ kk = LineAlpha.LINE()
 kk.login(qr=True)
 kk.loginResult()
 
-kk = ki
+ki = LineAlpha.LINE()
+ki.login(qr=True)
+ki.loginResult()
 
-cl = kc
+kc = LineAlpha.LINE()
+kc.login(qr=True)
+kc.loginResult()
 
 print "login success"
 reload(sys)
